@@ -1,0 +1,13 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="meltingGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFD93B;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFB340;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <circle cx="64" cy="64" r="60" fill="url(#meltingGradient)" stroke="#F4A000" stroke-width="5" />
+  <path d="M40,100 C60,120, 80,110, 95,115 C95,125, 65,125, 55,120 C45,115, 40,110, 40,100 Z" fill="#FFB340"/>
+  <circle cx="45" cy="50" r="8" fill="#3E3E3E" />
+  <circle cx="85" cy="50" r="8" fill="#3E3E3E" />
+  <path d="M50,75 Q64,90 78,75" stroke="#3E3E3E" stroke-width="5" fill="none" stroke-linecap="round" />
+</svg>

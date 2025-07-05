@@ -61,6 +61,11 @@ const durationEl = document.getElementById("duration");
 
 let isPlaying = false;
 
+// Autoplay on page load
+window.addEventListener("DOMContentLoaded", () => {
+  audio.play().catch(() => {});
+});
+
 playBtn.addEventListener("click", () => {
   if (isPlaying) {
     audio.pause();
